@@ -1,10 +1,15 @@
 // lib/main.dart
 
+import 'dart:io'; // Importe a biblioteca dart:io
 import 'package:flutter/material.dart';
 import 'api_service.dart';
+import 'http_overrides.dart'; // Importe o arquivo que você acabou de criar
 import 'transacao_pix_model.dart';
 
 void main() {
+  // Adicione estas duas linhas
+  HttpOverrides.global = MyHttpOverrides();
+
   runApp(const MyApp());
 }
 
