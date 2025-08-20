@@ -1,16 +1,33 @@
-# bcb_pix_app_devtestmagalupay
+BCB Pix App (Dev Test MagaluPay)
+Um aplicativo desenvolvido com Flutter como parte de um teste de desenvolvimento.
 
-A new Flutter project.
+🚀 Como Executar o Projeto
+Siga os passos abaixo para executar o projeto em sua máquina local.
 
-## Getting Started
+Pré-requisitos
+Flutter SDK v3.23 ou superior.
 
-This project is a starting point for a Flutter application.
+Um emulador Android/iOS configurado ou um dispositivo físico conectado.
 
-A few resources to get you started if this is your first Flutter project:
+Passos
+Clone o repositório:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Bash
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone https://github.com/petrosbarreto/bcb_pix_app_devtestmagalupay.git
+Acesse o diretório do projeto:
+
+Bash
+
+cd bcb_pix_app_devtestmagalupay
+Instale as dependências:
+
+Bash
+
+flutter pub get
+Execute o aplicativo:
+
+Bash
+
+flutter run
+Pronto! O aplicativo será instalado e iniciado no seu emulador ou dispositivo.
