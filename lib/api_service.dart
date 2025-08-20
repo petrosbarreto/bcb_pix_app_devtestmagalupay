@@ -6,7 +6,7 @@ import 'transacao_pix_model.dart'; // Importamos nosso modelo
 class ApiService {
   // A URL da API com a data de Agosto de 2025
   static const String _baseUrl =
-      "https://olinda.bcb.gov.br/olinda/servico/Pix_DadosAbertos/versao/v1/odata/TransacoesPixPorMunicipio(DataBase=@DataBase)?@DataBase='202508'&\$top=100&\$format=json";
+      "https://olinda.bcb.gov.br/olinda/servico/Pix_DadosAbertos/versao/v1/odata/TransacoesPixPorMunicipio(DataBase=@DataBase)?@DataBase='202507'&\$top=100&\$format=json";
 
   Future<List<TransacaoPix>> fetchTransacoesPix() async {
     try {
