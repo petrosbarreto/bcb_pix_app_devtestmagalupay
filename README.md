@@ -1,6 +1,3 @@
-Com certeza\! Aqui está o texto que você enviou, formatado como um código `.md`.
-
-````md
 # BCB Pix App (Dev Test MagaluPay)
 
 Um aplicativo desenvolvido com Flutter como parte de um teste de desenvolvimento.
@@ -17,24 +14,24 @@ Siga os passos abaixo para executar o projeto em sua máquina local.
 ### Passos
 
 1.  **Clone o repositório:**
-    ```sh
+    
     git clone [https://github.com/petrosbarreto/bcb_pix_app_devtestmagalupay.git](https://github.com/petrosbarreto/bcb_pix_app_devtestmagalupay.git)
-    ```
+    
 
-2.  **Acesse o diretório do projeto:**
-    ```sh
+3.  **Acesse o diretório do projeto:**
+    
     cd bcb_pix_app_devtestmagalupay
-    ```
+    
 
-3.  **Instale as dependências:**
-    ```sh
+4.  **Instale as dependências:**
+    
     flutter pub get
-    ```
+    
 
-4.  **Execute o aplicativo:**
-    ```sh
+5.  **Execute o aplicativo:**
+    
     flutter run
-    ```
+    
 
 Pronto! O aplicativo será instalado e iniciado no seu emulador ou dispositivo.
 ````
